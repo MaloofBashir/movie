@@ -66,7 +66,13 @@ def index(request):
 
 
 def details(request,id):
-    return render(request,'details.html')
+    try:
+        movie=requests.get("http://www.omdbapi.com/?apikey=706ade06&i="+id)
+        movie=movie.json()
+    except Exception as e:
+        return HttpResponse("imdb ID does not exist")
+    return render(request,'details.html',{'movie':movie})
+
 
 def addmovie(request):
     if request.method=='POST':
