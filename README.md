@@ -1,4 +1,4 @@
-#Tech stack used
+# Tech stack used
 <ul>
   <li>Python</li>
   <li>Django Framework</li>
@@ -8,7 +8,7 @@
 
 <p> Project Deployed to pythoneverywhere
 
-##Steps Followed
+## Steps Followed
 
 1. Created a django project mov and inside that porjected created an application by the name 'core'
 2. Create a user defined Registration model in models.py file (I did't use inbuilt forms here)
