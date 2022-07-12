@@ -10,9 +10,9 @@
 
 ## Steps Followed
 
-1. Created a django project mov and inside that porjected created an application by the name 'core'
-2. Create a user defined Registration model in models.py file (I did't use inbuilt forms here)
-3. Create a movie model in models.py , here i used builtin forms by creating forms.py file
+1. Created a django project "mov" and inside that project created an application by the name 'core'. Mentioned this application name in installed apps of settings.py file
+2. Created a user defined Registration model in models.py file (I did't use inbuilt forms here)
+3. Created a movie model in models.py , here i used builtin forms by creating forms.py file
 3. Registered my model on admin.py
 4. created urls.py file and templates folder inside my application
 5. linked app urls with project urls 
