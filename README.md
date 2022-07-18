@@ -24,3 +24,5 @@
 10. To get the details of a particular movie , i passed in an imdbID attribute through url into the view , got all info and passed it into movie detials page
 11. created two html pages "allmovies" and "mymovies" to display all movies and my private movies respectively 
 12. fetched private movies by using status field of Movie model and fetched all movies by getting entire records of Movie model
+
+# On add movie page , enter full date (yyyy-mm-dd) in year column 
